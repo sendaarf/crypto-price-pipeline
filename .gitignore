@@ -192,3 +192,18 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Airflow
+airflow.db
+logs/
+
+# Data temp
+data/
+
+# macOS (si tu es sur Mac)
+.DS_Store
